@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Install the required dependencies
                 
-                bat 'pip3 install -r requirements.txt'
+                bat 'python install -r requirements.txt'
             }
         }
 
